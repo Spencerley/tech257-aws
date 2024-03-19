@@ -24,5 +24,6 @@
 2. Add a new security group:
 3. Make sure to open port 22 and port 27017
 4. ![Database Security Group](images/db_sg.png)
-5. Connect the app to the db using the DB_HOST same rules as in Azure putting your ip and port in the env variable.
-6. Make sure to npm install again to seed and all should be connected and run pm2 kill and pm2 start app.js
+5. Run your setup script to install mongo and all your dependencies: [Database Setup Script](install_sparta_db.sh)
+6. Connect the app to the db using the DB_HOST same rules as in Azure putting your ip and port in the env variable.
+7. Make sure to npm install again to seed and all should be connected and run pm2 kill and pm2 start app.js
