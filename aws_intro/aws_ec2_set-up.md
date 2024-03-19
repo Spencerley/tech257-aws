@@ -1,0 +1,19 @@
+# Launching a VM
+
+1. Select EC2
+2. Select Launch new Instance
+3. ![launch instance](images/name_instance.png)
+4. Select the Ubuntu 22.04 image
+5. ![Ubuntu Image](images/ubuntu_image.png)
+6. Select your Key Pair and make sure it's in your local machines .ssh folder
+7. Create a new Security group (or use existing if you've set one up previously)
+8. ![Creating an SG 1](images/create_sg_1.png)
+9. ![Creating an SG 2](images/create_sg_2.png)
+10. SSH into your new instance
+11. - Change this file:
+    - `sudo nano /etc/needrestart/needrestart.conf`
+    - From:
+        - `#$nrconf{restart} = 'i';`
+        - Uncomment and change to:
+        - `$nrconf{restart} = 'a';` to restart services automatically.
+12. Run through your script to install dependencies and start the app. [Script to install Sparta app.](install_sparta_app_script.sh)
