@@ -17,3 +17,11 @@
         - Uncomment and change to:
         - `$nrconf{restart} = 'a';` to restart services automatically.
 12. Run through your script to install dependencies and start the app. [Script to install Sparta app.](install_sparta_app_script.sh)
+
+## Connecting the DB
+
+1. Create a new instance
+2. Add a new security group:
+3. ![Database Security Group](images/db_sg.png)
+4. Connect the app to the db using the DB_HOST same rules as in Azure.
+5. Make sure to npm install again to seed and all should be connected.
