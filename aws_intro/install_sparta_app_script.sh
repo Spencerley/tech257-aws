@@ -4,7 +4,7 @@
 sudo nano /etc/needrestart/needrestart.conf
 
 # change the line to 'a' from 'i' - Check this works!
-sudo sed -i 's@#$nrconf{restart} = 'i';@$nrconf{restart} = 'a';@g' /etc/needrestart/needrestart.conf
+sudo sed -i "s/#\$nrconf{restart} = 'i';/\$nrconf{restart} = 'a';/g" /etc/needrestart/needrestart.conf
 
 # update -
 sudo apt update -y
