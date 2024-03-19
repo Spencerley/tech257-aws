@@ -1,4 +1,4 @@
-# Launching a VM
+# Launching a VM in AWS using EC2
 
 1. Select EC2
 2. Select Launch new Instance
