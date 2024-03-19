@@ -13,7 +13,7 @@ sudo apt update -y
 sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -y
 
 # DB_HOST - export DB_HOST=mongodb://<yourIpHere>:27017/posts
-## export DB_HOST=mongodb://10.0.3.4:27017/posts
+# export DB_HOST=mongodb://10.0.3.4:27017/posts
 
 # nginx -
 sudo DEBIAN_FRONTEND=noninteractive apt install nginx -y
@@ -31,11 +31,11 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo DEBIAN
 # install pm2 -
 sudo npm install pm2 -g
 
-# clode down the repo -
+# clone down the repo -
 git clone https://github.com/Spencerley/tech257-sparta-app.git
 
 # path to app for user data -
- cd tech257-sparta-app/app
+cd tech257-sparta-app/app
 
 # npm -
 npm install
