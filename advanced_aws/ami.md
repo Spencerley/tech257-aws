@@ -3,11 +3,12 @@
 ## Set-up and deletion
 - Snapshot of a previous virtual machine.
 - Easy to create on AWS.
+<br>
 ![create an image](images/create-image.png)
 ![step 2](images/create-image-2.png)
-![step 3](images/create-image-3.png)
-- Have to wait for it to stop pending before deleting the old vm or deleting.
-![de-register the AMI](images/deregister-image.png)
+![step 3](images/create-image-3.png)<br>
+- Have to wait for it to stop pending before deleting the old vm or deleting.<br>
+![de-register the AMI](images/deregister-image.png)<br>
 - Have to  deregister the AMI then also delete the snapshot.
 - When creating a new EC2 from image use small amount of user data to get the app running.
 
