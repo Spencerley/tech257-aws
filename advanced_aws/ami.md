@@ -7,10 +7,41 @@
 ![create an image](images/create-image.png)
 ![step 2](images/create-image-2.png)
 ![step 3](images/create-image-3.png)<br>
+
 - Have to wait for it to stop pending before deleting the old vm or deleting.<br>
 ![de-register the AMI](images/deregister-image.png)<br>
 - Have to  deregister the AMI then also delete the snapshot.
 - When creating a new EC2 from image use small amount of user data to get the app running.
+
+## What is an AMI? How/why are they used?
+
+- An AMI (Amazon Machine Image) is a template for creating virtual machines (VMs) in Amazon's cloud computing platform, Amazon Elastic Compute Cloud (EC2). It essentially acts like a blueprint that captures the entire state of a virtual machine, including:
+
+  - Operating System (OS): The base operating system the VM runs on (e.g., Windows, Linux)
+  - Applications: Any software applications pre-installed on the VM
+  - Configurations: Settings and customizations made to the VM
+  - Data (Optional): In some cases, AMIs can also include data volumes attached to the VM
+
+### How are AMIs used?
+
+- AMIs offer several benefits for deploying VMs in AWS:
+
+  - Faster Deployment: Instead of manually configuring each VM from scratch, you can launch a new VM based on a pre-configured AMI, significantly speeding up deployment times.
+  - Consistency: AMIs ensure consistency across your VMs. Launching multiple VMs from the same AMI guarantees they have the same OS, applications, and configurations, leading to a predictable and reliable environment.
+  - Version Control: You can create and manage different versions of AMIs, allowing you to roll back to a previous configuration if needed or deploy VMs with specific software versions.
+  - Sharing: Public AMIs are available in the AWS Marketplace, providing pre-configured VMs with various operating systems and applications. You can also share custom AMIs within your organization.
+
+
+### Why are AMIs used?
+
+- Here are some common scenarios where AMIs are particularly useful:
+
+  - Multi-tier Applications: If your application consists of multiple servers with different configurations, you can create separate AMIs for each tier (web server, database server, etc.) for efficient deployment and management.
+  - Development and Testing: AMIs can be used to create identical development and testing environments, ensuring consistency across these stages of the software development lifecycle.
+  - High-Performance Computing: Pre-configured AMIs with specific software and libraries can be used to quickly launch HPC clusters for scientific computing tasks.
+  - AMIs are used because they allow fast deployment of EC2 instances and they make sure your instances are consistent.
+
+- Overall, AMIs are a fundamental building block for deploying and managing virtual machines in the AWS cloud. They streamline VM creation, ensure consistency, and enable rapid provisioning of infrastructure for various purposes.
 
 ## Differences in creating AWS AMI's and Azure VM Images:
 
