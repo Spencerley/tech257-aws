@@ -32,3 +32,20 @@
 ![step 5](images/asg5.png)<br>
 ![step 6](images/asg6.png)<br>
 ![step 7](images/asg7.png)<br>
+
+## Auto Scaling with a Database
+
+Database set up as per (../aws_intro/install_sparta_db.sh).
+
+A launch template using the a app ami that works with the following user data:
+
+`#!/bin/bash
+tech257-sparta-app/app
+node seeds/seed.js
+pm2 kill app
+export DB_HOST=mongodb://172.31.63.240:27017/posts
+export NODE_PORT=3000
+pm2 start app.js`
+
+
+The ASG should be set up the same as above, but with the correct Launch Template.
