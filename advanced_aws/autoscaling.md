@@ -1,5 +1,8 @@
 # Auto Scaling Group
 ![Overview Diagram](images/Dashboard.png)<br>
+
+![Diagram 2](images/asg.png)
+
 - Main differences to Azure:
   - Launch template
   - Seperate Subnets
