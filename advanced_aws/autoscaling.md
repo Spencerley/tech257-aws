@@ -31,13 +31,13 @@
 ## How Auto Scaling Groups Achieve These Benefits:
 
 1. Define Auto Scaling Group: You configure an Auto Scaling group with the following components:
-  - Launch Template: Specifies the AMI (Amazon Machine Image) and configuration for the instances to be launched.
-  - Scaling Policies: Define conditions (e.g., CloudWatch alarms based on CPU, memory, or network metrics) that trigger scaling up or down.
-  - Health Checks: Monitor the health of your instances to identify and replace unhealthy ones.
-  - Target Tracking: Optionally, target specific resource utilization levels (e.g., CPU) to automatically adjust instance count for optimal performance.
+   - Launch Template: Specifies the AMI (Amazon Machine Image) and configuration for the instances to be launched.
+   - Scaling Policies: Define conditions (e.g., CloudWatch alarms based on CPU, memory, or network metrics) that trigger scaling up or down.
+   - Health Checks: Monitor the health of your instances to identify and replace unhealthy ones.
+   - Target Tracking: Optionally, target specific resource utilization levels (e.g., CPU) to automatically adjust instance count for optimal performance.
 <br>
 
-2. Auto Scaling in Action:
+1. Auto Scaling in Action:
    - When demand increases and scaling policies are triggered (e.g., CPU utilization exceeds threshold), Auto Scaling group launches new instances from the Launch Template.
    - New instances undergo health checks. Once healthy, they join the pool and serve requests, distributing the load and improving response times.
    - During low traffic periods, scaling policies might trigger scaling down, terminating instances to avoid unnecessary costs.
