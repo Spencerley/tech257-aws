@@ -34,7 +34,7 @@
 
 ## Auto Scaling with a Database
 
-Database set up as per (../aws_intro/install_sparta_db.sh).
+Database set up as per [Database script](../aws_intro/install_sparta_db.sh)
 
 A launch template using the a app ami that works with the following user data:
 
