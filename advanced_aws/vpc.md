@@ -1,6 +1,6 @@
 # Custom VPC's
 
-![Custom VPC Diagram](<images/VPC diagram.png>)<br>
+<br>
 
 - [Custom VPC's](#custom-vpcs)
   - [What is a custom VPC?](#what-is-a-custom-vpc)
@@ -10,7 +10,9 @@
   - [Complete Diagram](#complete-diagram)
   - [Deleting a Custom VPC](#deleting-a-custom-vpc)
 
-<br>
+
+![Custom VPC Diagram](<images/VPC diagram.png>)<br>
+
 
 ## What is a custom VPC?
 In Amazon Web Services (AWS), a custom VPC is a virtual network that you create and configure according to your specific needs. Unlike the default VPC provided by AWS, which has a predefined IP address range and limited customization, a custom VPC offers greater control over:
