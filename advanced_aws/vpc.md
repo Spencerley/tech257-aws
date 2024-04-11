@@ -7,7 +7,7 @@
   - [Why use one?](#why-use-one)
   - [When to use one?](#when-to-use-one)
   - [How to create one:](#how-to-create-one)
-  - [Numbere Diagram](#numbere-diagram)
+  - [Numbered Diagram](#numbered-diagram)
   - [Deleting a Custom VPC](#deleting-a-custom-vpc)
 
 <br>
