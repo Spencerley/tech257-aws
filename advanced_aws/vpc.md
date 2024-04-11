@@ -10,8 +10,11 @@
   - [Complete Diagram](#complete-diagram)
   - [Deleting a Custom VPC](#deleting-a-custom-vpc)
 
+<br>
 
-![Custom VPC Diagram](<images/VPC diagram.png>)<br>
+![Custom VPC Diagram](<images/VPC diagram.png>)
+
+<br>
 
 
 ## What is a custom VPC?
