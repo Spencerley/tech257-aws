@@ -7,7 +7,7 @@
   - [Why use one?](#why-use-one)
   - [When to use one?](#when-to-use-one)
   - [How to create one:](#how-to-create-one)
-  - [Complete Diagram](#complete-diagram)
+  - [Numbere Diagram](#numbere-diagram)
   - [Deleting a Custom VPC](#deleting-a-custom-vpc)
 
 <br>
@@ -82,7 +82,7 @@ Additional Considerations:
 You want your Resource Map to look like this:<br>
 ![Resource Map](vpc-images/vpc13.png)<br>
 
-## Complete Diagram
+## Numbered Diagram
 ![complete VPC diagram](vpc-images/vpc14.png)
 
 ## Deleting a Custom VPC
