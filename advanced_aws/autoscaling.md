@@ -27,7 +27,6 @@
   - New Load Balancer set up:<br>
     ![step1](images/lb1.png)<br>
     ![step2](images/lb2.png)<br>
-
 ![step 4](images/asg4.png)<br>
 ![step 5](images/asg5.png)<br>
 ![step 6](images/asg6.png)<br>
